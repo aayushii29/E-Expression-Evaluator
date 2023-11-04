@@ -1,1 +1,2 @@
 # E-Expression-Evaluator
+This program evaluates expressions for a hypothetical language E++. The expressions in E++ are fully parenthesized.The program can accomodate unlimited sized integers and perform arithmetic operations like add,subtract,divide,multiply and modulo on them, surpassing the limit of int data type. It can take a valid E++ ariithmetic expression containg unlimited sized integers as an input and output the accurate results.
