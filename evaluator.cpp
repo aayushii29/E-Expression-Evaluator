@@ -137,7 +137,7 @@ void Evaluator::parse(vector<string> code){
         }
         else{
             // Val
-            if(code[i][0] == '0' || code[i][0] == '1' || code[i][0] == '2' || code[i][0] == '3' || code[i][0] == '4' || code[i][0] == '5' || code[i][0] == '6' || code[i][0] == '7' || code[i][0] == '8' || code[i][0] == '9'){
+            if(code[i][0] == '0' || code[i][0] == '1' || code[i][0] == '2' || code[i][0] == '3' || code[i][0] == '4' || code[i][0] == '5' || code[i][0] == '6' || code[i][0] == '7' || code[i][0] == '8' || code[i][0] == '9' || code[i] == '-'){
                 EMPTYNODES.pop_back();
                 eroot->type = "VAL";
                 eroot->id = code[i];
